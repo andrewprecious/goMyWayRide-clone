@@ -1,0 +1,532 @@
+/* banner section starts */
+.banner-section {
+  background-color: var(--gray81);
+  padding: var(--sectionpadding2);
+}
+
+.banner-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.heading1 {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+}
+
+.banner-content {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  color: var(--white);
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 75px;
+}
+
+.inputWithIcon input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 90%;
+  font-size: 16px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.br-right {
+  border-right: 1px solid #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bi-geo-alt-fill {
+  color: var(--lightskyblue);
+}
+
+.location2 {
+  color: var(--green);
+}
+
+.bi-calendar2-check-fill {
+  color: var(--colortt);
+}
+
+.my-Icon {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+}
+
+.banner-buttons .btns {
+  border-radius: 50px;
+  background-color: var(--orangered);
+  border: 1px solid var(--orangered);
+  padding: 10px 35px;
+  color: var(--white);
+  margin-top: 15px;
+  transition: all ease 0.3s;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.banner-buttons .btns:hover {
+  background-color: var(--darkorangered);
+  border: 1px solid var(--transparent);
+}
+
+/* banner section ends */
+
+/* about section starts */
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.roww {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  display: flex;
+}
+
+.btn22 {
+  border-radius: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  color: black;
+  transition: all ease 0.3s;
+}
+
+.btn22:hover {
+  background-color: #ff4e029c;
+  color: black;
+  border: 1px solid #ff4e029c;
+}
+
+.about {
+  padding: 50px 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 42px;
+  font-weight: lighter;
+}
+
+.header1 {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgba(128, 128, 128, 0.822);
+}
+
+.header2 {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: rgba(128, 128, 128, 0.822);
+}
+
+.section-header {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* second section ends */
+/* about section ends */
+
+/* dyk section starts */
+.dyk-section {
+  margin-top: 10px;
+  background-color: rgb(105, 64, 64);
+  padding: var(--sectionpadding2);
+}
+
+.dyk-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  font-size: 48px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.text,
+.text1,
+.text2,
+.text3 {
+  font-size: 16px;
+  color: white;
+}
+/* dyk section ends */
+
+/* testimonials starts */
+.testimonials-section {
+  padding: var(--sectionpadding2);
+}
+
+.body-text {
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.tm-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.cards {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+  padding: 40px 25px 20px;
+  position: relative;
+  margin: 40px 0;
+}
+
+.cards .quote {
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  width: 65px;
+  height: 60px;
+}
+
+.cards p {
+  color: rgba(0, 0, 0, 0.562);
+  font-size: 15px;
+}
+
+.testimonial-flex {
+  float: right;
+  margin-top: 20px;
+}
+
+.justices {
+  display: flex;
+  gap: 10px;
+}
+
+.testimonial-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.testimonial-name h3 {
+  font-size: 15px;
+}
+/* testimonials section ends */
+
+/* popular section starts */
+.popular-section {
+  background-color: rgba(128, 128, 128, 0.11);
+  padding: var(--sectionpadding2);
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottom-text {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.inner {
+  display: flex;
+  gap: 3px;
+  font-size: 17px;
+}
+
+.location22 {
+  color: black;
+  font-size: 16px;
+}
+
+.style {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  border-bottom: dotted #ccc 2px;
+}
+
+li .span,
+.span-1 {
+  padding: 10px 0;
+}
+
+.span {
+  color: rgb(107, 177, 201);
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.span:hover {
+  color: rgb(94, 151, 170);
+}
+
+.span-1 {
+  color: rgb(27, 163, 27);
+}
+
+/* popular section ends */
+
+/* lkf scetion starts */
+.lkf-container {
+  padding: var(--sectionpadding2);
+  text-align: center;
+}
+.lkf-container h1 {
+  color: rgba(128, 128, 128, 0.822);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* lkf section ends */
+
+/* responsive banner section starts */
+
+/* ==> 786px */
+@media (max-width: 786px) {
+  .container {
+    width: 95%;
+  }
+
+  .center-form {
+    border: none;
+    background-color: transparent;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .br-right {
+    border-right: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .inputWithIcon input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .heading1 {
+    font-size: 24px;
+  }
+
+  .banner-content {
+    font-size: 23px;
+    margin: 0 auto;
+    font-weight: lighter;
+  }
+}
+
+/* ==> 1200px */
+@media (max-width: 1200px) {
+  .center-form {
+    width: 86%;
+    gap: 15px;
+  }
+
+  .heading1 {
+    font-size: 43px;
+    font-weight: lighter;
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner-content {
+    font-size: 22px;
+  }
+
+  .inputWithIcon input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .br-right {
+    border-right: 1px solid #ccc;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+/* responsive banner section ends */
+
+/* Responsive about section starts */
+/* => 900px */
+@media (max-width: 1300px) {
+  .section-bottom--left--buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .img {
+    width: 220px;
+    height: 220px;
+    margin-top: 40px;
+  }
+
+  .section-header {
+    font-weight: bold;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.712);
+  }
+
+  .section-bottom--right--title {
+    color: rgba(0, 0, 0, 0.747);
+  }
+
+  .section-bottom--left--title {
+    color: rgba(0, 0, 0, 0.747);
+  }
+
+  .icon p {
+    color: rgba(0, 0, 0, 0.747);
+  }
+}
+
+/* ==> 900px */
+@media (max-width: 900px) {
+  .flex2 {
+    align-items: center;
+  }
+
+  .flex3 {
+    align-items: center;
+  }
+
+  .section-bottom--left--buttons {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .about2-content .first-row-left {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .about2-content .first-row-right {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+
+/* ==> 400px */
+@media (max-width: 400px) {
+  .roww {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .section-bottom--left--title {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+/* Responsive about section ends */
+
+/* responsive dyk section starts*/
+@media (max-width: 900px) {
+  .dyk-section {
+    background-color: rgb(105, 64, 64);
+    padding: 20px 0 20px;
+  }
+}
+/* responsive dyk section ends */
+
+/* responsive testimonials starts */
+
+/* ==> 900px */
+@media (max-width: 900px) {
+  .justice {
+    grid-column: 1/5;
+    grid-row: 1/2;
+  }
+
+  .lucky {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+
+  .jason {
+    grid-column: 1/5;
+    grid-row: 3/4;
+  }
+
+  .john {
+    grid-column: 1/5;
+    grid-row: 4/5;
+  }
+}
+/* responsive testimonials ends */
+
+/* responsive popular section starts */
+/* ==> 1300px */
+@media (max-width: 1300px) {
+  .style {
+    gap: 10px;
+  }
+}
+
+/* ==> 1100px */
+@media (max-width: 1100px) {
+  .inner h3 {
+    margin-bottom: 30px;
+  }
+  .bottom-text {
+    flex-direction: column;
+  }
+}
+
+/* responsive popular section ends */

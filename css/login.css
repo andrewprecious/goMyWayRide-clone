@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+}
+
+header {
+  align-self: start;
+}
+
+.footer-section {
+  align-self: end;
+}
+
+section {
+  padding: 40px;
+}
+
+.section-content {
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.19);
+  border-top-left-radius: 3px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.section-left {
+  background-color: var(--orangered);
+  padding: 200px 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 40px;
+}
+
+.section-right {
+  display: flex;
+  gap: 40px;
+  align-content: center;
+}
+
+.first-side {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-side h2 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.863);
+}
+
+.inputWithIcon {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.div1 {
+  display: flex;
+  gap: 80px;
+  border-bottom: 2px solid var(--gray16);
+}
+
+.div1 input {
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.div1 i {
+  font-size: 24px;
+  color: (--gray16);
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.txt2 {
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 2s ease-in;
+}
+
+.txt2 span:hover {
+  color: black;
+}
+
+/* responsive side of login page starts */
+/* ==> 900px */
+@media (max-width: 1000px) {
+  .section-left {
+    display: none;
+  }
+
+  .section-right {
+    grid-column: 1/5;
+    grid-row: 1/5;
+  }
+
+  .first-side {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+  }
+
+  .first-side h2 {
+    margin-bottom: 45px;
+    align-self: flex-start;
+  }
+
+  .div1 input {
+    font-size: 14px;
+  }
+
+  .snd-side h3 {
+    margin-top: 150px;
+  }
+}
+
+/* responsive side of login page starts */
+/* ==> 890px */
+
+/* responsive side of login page starts */
+
+/* responsive side of login page starts */
+/* ==> 800px */
+@media (max-width: 800px) {
+  .section-content {
+    width: 100%;
+  }
+
+  .section-right {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-bottom: 60px;
+  }
+
+  .first-side {
+    align-items: flex-start;
+    display: block;
+    padding-top: 30px;
+  }
+
+  .div1 input {
+    width: 100%;
+  }
+
+  .bb {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .snd-side h3 {
+    margin-top: 0px;
+    padding: 0px 15px;
+    font-size: 15px;
+  }
+}
